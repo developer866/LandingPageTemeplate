@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: #1f2937;
+    overflow: hidden;
+}
+.size{
+    width: 70%;
+    margin: 0 auto;
+}
+.header-content{
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header-content ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+}
+.header-content ul li a{
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+.heading_content_word{
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.5rem;
+    align-items: center;
+}
+.word{
+    width: 40%;
+}
+.heading_content_word h1{
+    margin: 0;
+    line-height: 0.7rem;
+}
+.heading_content_word p{
+    font-size: 1.6rem;
+    margin-top:-50px;
+}
+.sign_up{
+    padding: 16px;
+    width: 150px;
+    font-size: 1.5rem;
+    border: none;
+    color: white;
+    border-radius: 18px;
+    background: #3882f6;
+}
+.img-box{
+    width: 50%;
+    height: 38vh;
+    border-radius: 20px;
+    background: gray;
+}
+.random h1{
+    text-align: center;
+}
+.box-a p{
+    width: 180px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.random{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.random h1{
+    font-size: 3rem;
+}
+.box{
+    width: 180px;
+    height: 27vh;
+    border:4px solid #3882f6;
+    border-radius: 16px;
+}
+.random-boxes{
+    display: flex;
+    gap: 100px;
+    align-content: center;
+    justify-content: center;
+}
+.size-b{
+    width: 60%;
+    margin: 0 auto;
+}
+.quote{
+    font-size: 3rem;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #e5e7eb;
+}
+.action{
+    background: white;
+    font-size: 1.5rem;
+    padding: 40px;
+    color: white;
+}
+.action-a{
+    background: #3882f6;
+    line-height: 1rem;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    border-radius:18px ;
+    padding-left: 100px;
+    padding-right:100px ;
+    align-items: center;
+}
+.btn{
+    font-size: 1.5rem;
+    color: white;
+    width: 140px;
+    background: #3882f6;
+    border: 4px solid white ;
+    border-radius: 10px;
+}
+.footer{
+    background: #1f2937;
+    height: 10vh;
+    display: flex;
+    align-content: center;
+}
+.footer-a{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+@media(max-width:475px){
+    }
